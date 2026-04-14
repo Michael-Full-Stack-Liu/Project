@@ -1,0 +1,44 @@
+# Presentation generated files and scripts
+presentations/
+Seattle_Alpha_Terminal_Presentation.pptx
+presentation_slides.md
+
+# Presentation Helper Scripts
+generate_html_slides.py
+generate_slides.py
+crop_images.py
+crop_v3.py
+test_crop.py
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+
+# Databases
+app_database.db
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

@@ -1,0 +1,12 @@
+pandas
+numpy
+lightgbm
+scikit-learn
+streamlit
+httpx
+matplotlib
+plotly
+beautifulsoup4
+requests
+python-dateutil
+torch
