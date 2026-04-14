@@ -18,7 +18,12 @@ This project is aimed at forecasting the daily maximum temperature in Seattle us
    ```bash
    pip install -r requirements.txt
    ```
-4. Start the dashboard application:
+4. **Important Note on Database**: The local SQLite database (`app_database.db`) is excluded from version control to prevent tracking binary bloat. Before starting the dashboard for the first time, you must initialize the schema and fetch current weather data:
+   ```bash
+   python data_fetcher.py
+   ```
+   *(Note: If you skip this step, the dashboard will gracefully degrade and open without crashing, but the telemetry module will display an `OFFLINE` status.)*
+5. Start the dashboard application:
    ```bash
    python main.py
    ```
